@@ -9,7 +9,9 @@ instances = ec2.create_instances(
     InstanceType='t2.micro',  # Instance type (t2.micro is free tier eligible)
     MinCount=1,
     MaxCount=1,
+
     KeyName='devops' # Your key pair name
+
 
 
 )
