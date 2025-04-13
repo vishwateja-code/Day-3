@@ -11,7 +11,7 @@ instances = ec2.create_instances(
     MaxCount=1,
 
     KeyName='devops' # Your key pair name
-
+    KeyName='aws'
 
 
 )
